@@ -94,3 +94,4 @@ if __name__ == "__main__":
         json.dump(all_data, f, ensure_ascii=False, indent=2)
 
     print(f"Saved {len(all_data)} items to sozialberatungsstellen.json")
+    # two minor manual adjustments in the file: 2 " .de" and 3 ",  " fixed
